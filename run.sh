@@ -1,0 +1,1 @@
+mongosh --host vulnb0x-mongodb -u user -p strongpassword11 < echo.js
