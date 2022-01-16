@@ -1,1 +1,1 @@
-mongosh --host 172.20.0.3 -u user -p strongpassword11 < echo.js
+mongosh --host 172.18.0.3 -u user -p strongpassword11 < echo.js
