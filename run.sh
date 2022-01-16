@@ -1,1 +1,1 @@
-mongosh --host vulnb0x-mongodb -u user -p strongpassword11 < echo.js
+mongosh --host 172.20.0.3 -u user -p strongpassword11 < echo.js
