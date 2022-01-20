@@ -1,9 +1,6 @@
-for i in {15,16,17,18,19,20}
-do
-	echo $i
-	mongosh --host "172.$i.0.3" -u user -p strongpassword11 < echo.js
-done
-
-echo "Done"
-
-exit 0
+mongosh --host "172.15.0.3" -u user -p strongpassword11 < echo.js &
+mongosh --host "172.16.0.3" -u user -p strongpassword11 < echo.js &
+mongosh --host "172.17.0.3" -u user -p strongpassword11 < echo.js &
+mongosh --host "172.18.0.3" -u user -p strongpassword11 < echo.js &
+mongosh --host "172.19.0.3" -u user -p strongpassword11 < echo.js &
+mongosh --host "172.20.0.3" -u user -p strongpassword11 < echo.js
